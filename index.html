@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List!</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body><center>
+	<div class="container">
+		<!--The actual shopping list-->
+		<div class="shoppinglist">
+			<div class="inputarea">
+				<p>SHOPPING LIST</p>	
+				<label for="newitem">Add items to your list
+				</label>
+				<input type="text" id="newitem" size="30">
+				<div class="addbox">
+					<button>+</button>
+				</div>
+			</div>
+			<!--A ul to put in our list items-->
+		<ul>
+			<!--lis will have a checkbox to strikethrough, the item itself, and an X box to delete the li-->
+			<li class="selected">
+				<div class="checkbox">
+				<input type="checkbox" name="grocery">
+				</div><span>Red Kale</span>
+				<div class="deletebox">
+					<button>x</button>
+				</div>
+				<hr>
+			</li>
+			<li>
+				<div class="checkbox">
+				<input type="checkbox" name="grocery">
+				</div><span>Green Kale</span>
+				<div class="deletebox">
+					<button>x</button>
+				</div>
+				<hr>
+			</li>
+			<li>
+				<div class="checkbox">
+				<input type="checkbox" name="grocery">
+				</div><span>Mushrooms</span>
+				<div class="deletebox">
+					<button>x</button>
+				</div>
+				<hr>
+			</li>
+		</ul>
+			<div class="bottom">
+				<div class="remove">Remove all</div>
+				<div class="email">Email list</div>
+			</div>
+		</div>
+
+	</div>
+</center></body>
+</html>
