@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Shopping List!</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="http://code.jquery.com/jquery-latest.min.js">
-	</script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 </head>
 <body><center>
 	<div class="container">
@@ -15,17 +15,17 @@
 				<p>SHOPPING LIST</p>	
 				<label for="newitem">Add items to your list
 				</label>
-				<input type="text" id="newitem" size="30">
+				<input type="text" id="newitem" size="25">
 				<div class="addbox">
 					<button>+</button>
 				</div>
 			</div>
 			<!--A ul to put in our list items-->
-		<ul>
+		<ul class="content">
 			<!--lis will have a checkbox to strikethrough, the item itself, and an X box to delete the li-->
 			<li class="selected">
 				<div class="checkbox">
-				<input type="checkbox" name="grocery">
+				<input type="checkbox" name="grocery" id="checkbox">
 				</div><span>Red Kale</span>
 				<div class="deletebox">
 					<button>x</button>

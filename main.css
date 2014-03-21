@@ -66,7 +66,7 @@ table {
 	font-family: Eraser;
 	background: url(./images/brownpapertop.gif);
 	background-size: 95%;
-	padding: 10px 0 10px 0;
+	padding: 10px 10px;
 	text-align: center;
 	margin-top: 10px;
 }
@@ -77,7 +77,7 @@ background-color: transparent;
 border-style: solid;
 border-width: 0 0 1px 0;
 border-color: #000;
-
+outline: none;
 }
 
 p{
@@ -90,6 +90,10 @@ ul{
 	font-family: Verdana, Geneva, sans-serfi;
 	margin-top: 20px;
 	color: white;
+}
+
+li{
+	padding: 5px 10px;
 }
 
 .selected{
@@ -123,6 +127,8 @@ ul{
 	display: inline-block;
 }
 .email{
+	padding: 20px 10px 0 0;
+	display: inline-block;
 	float: right;
 }
 
