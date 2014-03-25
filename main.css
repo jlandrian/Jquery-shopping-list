@@ -55,11 +55,13 @@ table {
 
 .shoppinglist{
 	margin-top: 20px;
+	padding-bottom: 59px;
 	text-align: left;
-	/*outline:1px solid red;*/
+	outline:3px solid #382702;
 	background: url(./images/chalkboard-blue.jpg);
 	width: 460px;
 	min-height: 600px;
+	position: relative;
 }
 
 .inputarea{
@@ -78,6 +80,7 @@ border-style: solid;
 border-width: 0 0 1px 0;
 border-color: #000;
 outline: none;
+color: #000; 
 }
 
 p{
@@ -112,23 +115,48 @@ li{
 	float: right;
 }
 
+.addbtn{
+	border: 2px solid #000;
+}
+
+.deletebtn{
+	border: 2px solid #FFF;
+	color: #FFF;
+}
+
+button{
+	font-family: Eraser;
+	background: transparent;
+	cursor: pointer;
+}
+
 .bottom{
 	font-family: Eraser;
 	background: url(./images/brownpaperbottom.gif);
-	/*outline: 1px solid red;*/
 	width: 460px;
 	height: 59px;
-	position: relative;
-	top: 350px;
+	position: absolute;
+	bottom: 0;
+	/*outline: 1px solid red;*/
 }
 
 .remove{
-	padding: 20px 0 0 10px;
-	display: inline-block;
+	/*outline: 1px solid red;*/
+	position: static;
+	text-align: center;
+	width: 120px;
+	margin: auto;
+	cursor: pointer;
+	margin-top: 25px;
 }
+
+.remove:hover{
+	color: #FFF;
+}
+
 .email{
+	display: none;
 	padding: 20px 10px 0 0;
-	display: inline-block;
 	float: right;
 }
 
