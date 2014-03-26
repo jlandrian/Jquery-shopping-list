@@ -8,7 +8,7 @@ $(document).ready(function(){
 	//a function for adding items to the list
 	function additem() {
 		var added = $("#newitem").val();
-		if (added =="", " ") {
+		if (added ==="") {
 		alert("Please enter an item first!");
 		}
 		else{
